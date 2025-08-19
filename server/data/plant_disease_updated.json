@@ -1,0 +1,236 @@
+[
+    {
+        "name": "Apple___Apple_scab",
+        "cause": "Fungus Venturia inaequalis. Favorable conditions are cool, wet weather.",
+        "cure": "Use fungicides and resistant apple varieties. Prune and destroy infected leaves.",
+        "html": "<b>Crop</b>: Apple <br/>Disease: Apple_scab<br/><br/><b>Cause of disease:</b><br/>Fungus Venturia inaequalis. Favorable conditions are cool, wet weather.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use fungicides and resistant apple varieties. Prune and destroy infected leaves."
+    },
+    {
+        "name": "Apple___Black_rot",
+        "cause": "Caused by the fungus Botryosphaeria obtusa.",
+        "cure": "Prune and remove infected areas. Apply fungicides during the growing season.",
+        "html": "<b>Crop</b>: Apple <br/>Disease: Black_rot<br/><br/><b>Cause of disease:</b><br/>Caused by the fungus Botryosphaeria obtusa.<br/><br/><b>How to prevent/cure the disease:</b><br/>Prune and remove infected areas. Apply fungicides during the growing season."
+    },
+    {
+        "name": "Apple___Cedar_apple_rust",
+        "cause": "Fungus Gymnosporangium juniperi-virginianae. Requires junipers as an alternate host.",
+        "cure": "Remove nearby juniper hosts. Use resistant varieties and fungicides.",
+        "html": "<b>Crop</b>: Apple <br/>Disease: Cedar_apple_rust<br/><br/><b>Cause of disease:</b><br/>Fungus Gymnosporangium juniperi-virginianae. Requires junipers as an alternate host.<br/><br/><b>How to prevent/cure the disease:</b><br/>Remove nearby juniper hosts. Use resistant varieties and fungicides."
+    },
+    {
+        "name": "Apple___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Apple <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Background_without_leaves",
+        "cause": "No disease or plant detected.",
+        "cure": "Not applicable.",
+        "html": "<b>Crop</b>: Background without leaves <br/>Disease: Background_without_leaves<br/><br/><b>Cause of disease:</b><br/>No disease or plant detected.<br/><br/><b>How to prevent/cure the disease:</b><br/>Not applicable."
+    },
+    {
+        "name": "Blueberry___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Blueberry <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Cherry___Powdery_mildew",
+        "cause": "Fungus Podosphaera clandestina.",
+        "cure": "Apply sulfur-based or fungicide treatments. Ensure good air circulation.",
+        "html": "<b>Crop</b>: Cherry <br/>Disease: Powdery_mildew<br/><br/><b>Cause of disease:</b><br/>Fungus Podosphaera clandestina.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply sulfur-based or fungicide treatments. Ensure good air circulation."
+    },
+    {
+        "name": "Cherry___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Cherry <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+        "cause": "Fungus Cercospora zeae-maydis.",
+        "cure": "Use resistant hybrids and fungicide sprays.",
+        "html": "<b>Crop</b>: Corn <br/>Disease: Cercospora_leaf_spot Gray_leaf_spot<br/><br/><b>Cause of disease:</b><br/>Fungus Cercospora zeae-maydis.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use resistant hybrids and fungicide sprays."
+    },
+    {
+        "name": "Corn___Common_rust",
+        "cause": "Fungus Puccinia sorghi.",
+        "cure": "Apply fungicides and plant resistant varieties.",
+        "html": "<b>Crop</b>: Corn <br/>Disease: Common_rust<br/><br/><b>Cause of disease:</b><br/>Fungus Puccinia sorghi.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply fungicides and plant resistant varieties."
+    },
+    {
+        "name": "Corn___Northern_Leaf_Blight",
+        "cause": "Fungus Exserohilum turcicum.",
+        "cure": "Use resistant varieties and fungicides.",
+        "html": "<b>Crop</b>: Corn <br/>Disease: Northern_Leaf_Blight<br/><br/><b>Cause of disease:</b><br/>Fungus Exserohilum turcicum.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use resistant varieties and fungicides."
+    },
+    {
+        "name": "Corn___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Corn <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Grape___Black_rot",
+        "cause": "Fungus Guignardia bidwellii.",
+        "cure": "Prune infected areas and apply fungicides.",
+        "html": "<b>Crop</b>: Grape <br/>Disease: Black_rot<br/><br/><b>Cause of disease:</b><br/>Fungus Guignardia bidwellii.<br/><br/><b>How to prevent/cure the disease:</b><br/>Prune infected areas and apply fungicides."
+    },
+    {
+        "name": "Grape___Esca_(Black_Measles)",
+        "cause": "Fungal complex including Phaeomoniella chlamydospora.",
+        "cure": "Remove infected wood. Avoid injuries to vines.",
+        "html": "<b>Crop</b>: Grape <br/>Disease: Esca_(Black_Measles)<br/><br/><b>Cause of disease:</b><br/>Fungal complex including Phaeomoniella chlamydospora.<br/><br/><b>How to prevent/cure the disease:</b><br/>Remove infected wood. Avoid injuries to vines."
+    },
+    {
+        "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "cause": "Fungus Pseudocercospora vitis.",
+        "cure": "Apply fungicides and manage vineyard hygiene.",
+        "html": "<b>Crop</b>: Grape <br/>Disease: Leaf_blight_(Isariopsis_Leaf_Spot)<br/><br/><b>Cause of disease:</b><br/>Fungus Pseudocercospora vitis.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply fungicides and manage vineyard hygiene."
+    },
+    {
+        "name": "Grape___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Grape <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Orange___Haunglongbing_(Citrus_greening)",
+        "cause": "Bacterium Candidatus Liberibacter spp. Spread by psyllid insects.",
+        "cure": "Control psyllid population and remove infected trees.",
+        "html": "<b>Crop</b>: Orange <br/>Disease: Haunglongbing_(Citrus_greening)<br/><br/><b>Cause of disease:</b><br/>Bacterium Candidatus Liberibacter spp. Spread by psyllid insects.<br/><br/><b>How to prevent/cure the disease:</b><br/>Control psyllid population and remove infected trees."
+    },
+    {
+        "name": "Peach___Bacterial_spot",
+        "cause": "Bacterium Xanthomonas campestris pv. pruni.",
+        "cure": "Use resistant varieties and copper-based bactericides.",
+        "html": "<b>Crop</b>: Peach <br/>Disease: Bacterial_spot<br/><br/><b>Cause of disease:</b><br/>Bacterium Xanthomonas campestris pv. pruni.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use resistant varieties and copper-based bactericides."
+    },
+    {
+        "name": "Peach___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Peach <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Pepper,_bell___Bacterial_spot",
+        "cause": "Bacterium Xanthomonas campestris pv. vesicatoria.",
+        "cure": "Use copper-based bactericides and resistant varieties.",
+        "html": "<b>Crop</b>: Pepper, bell <br/>Disease: Bacterial_spot<br/><br/><b>Cause of disease:</b><br/>Bacterium Xanthomonas campestris pv. vesicatoria.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use copper-based bactericides and resistant varieties."
+    },
+    {
+        "name": "Pepper,_bell___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Pepper, bell <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Potato___Early_blight",
+        "cause": "Fungus Alternaria solani.",
+        "cure": "Apply fungicides and practice crop rotation.",
+        "html": "<b>Crop</b>: Potato <br/>Disease: Early_blight<br/><br/><b>Cause of disease:</b><br/>Fungus Alternaria solani.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply fungicides and practice crop rotation."
+    },
+    {
+        "name": "Potato___Late_blight",
+        "cause": "Pathogen Phytophthora infestans.",
+        "cure": "Use resistant varieties and fungicides.",
+        "html": "<b>Crop</b>: Potato <br/>Disease: Late_blight<br/><br/><b>Cause of disease:</b><br/>Pathogen Phytophthora infestans.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use resistant varieties and fungicides."
+    },
+    {
+        "name": "Potato___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Potato <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Raspberry___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Raspberry <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Soybean___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Soybean <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Squash___Powdery_mildew",
+        "cause": "Fungal pathogens including Erysiphe cichoracearum.",
+        "cure": "Apply sulfur-based fungicides and maintain good air circulation.",
+        "html": "<b>Crop</b>: Squash <br/>Disease: Powdery_mildew<br/><br/><b>Cause of disease:</b><br/>Fungal pathogens including Erysiphe cichoracearum.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply sulfur-based fungicides and maintain good air circulation."
+    },
+    {
+        "name": "Strawberry___Leaf_scorch",
+        "cause": "Fungus Diplocarpon earlianum.",
+        "cure": "Remove infected leaves and apply fungicides.",
+        "html": "<b>Crop</b>: Strawberry <br/>Disease: Leaf_scorch<br/><br/><b>Cause of disease:</b><br/>Fungus Diplocarpon earlianum.<br/><br/><b>How to prevent/cure the disease:</b><br/>Remove infected leaves and apply fungicides."
+    },
+    {
+        "name": "Strawberry___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Strawberry <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    },
+    {
+        "name": "Tomato___Bacterial_spot",
+        "cause": "Bacterium Xanthomonas spp.",
+        "cure": "Apply copper-based bactericides and practice crop rotation.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Bacterial_spot<br/><br/><b>Cause of disease:</b><br/>Bacterium Xanthomonas spp.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply copper-based bactericides and practice crop rotation."
+    },
+    {
+        "name": "Tomato___Early_blight",
+        "cause": "Fungus Alternaria solani.",
+        "cure": "Apply fungicides and remove infected leaves.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Early_blight<br/><br/><b>Cause of disease:</b><br/>Fungus Alternaria solani.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply fungicides and remove infected leaves."
+    },
+    {
+        "name": "Tomato___Late_blight",
+        "cause": "Pathogen Phytophthora infestans.",
+        "cure": "Use resistant varieties and fungicides.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Late_blight<br/><br/><b>Cause of disease:</b><br/>Pathogen Phytophthora infestans.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use resistant varieties and fungicides."
+    },
+    {
+        "name": "Tomato___Leaf_Mold",
+        "cause": "Fungus Passalora fulva.",
+        "cure": "Apply fungicides and ensure good ventilation.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Leaf_Mold<br/><br/><b>Cause of disease:</b><br/>Fungus Passalora fulva.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply fungicides and ensure good ventilation."
+    },
+    {
+        "name": "Tomato___Septoria_leaf_spot",
+        "cause": "Fungus Septoria lycopersici.",
+        "cure": "Remove infected leaves and apply fungicides.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Septoria_leaf_spot<br/><br/><b>Cause of disease:</b><br/>Fungus Septoria lycopersici.<br/><br/><b>How to prevent/cure the disease:</b><br/>Remove infected leaves and apply fungicides."
+    },
+    {
+        "name": "Tomato___Spider_mites Two-spotted_spider_mite",
+        "cause": "Spider mites Tetranychus urticae.",
+        "cure": "Use miticides or insecticidal soaps.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Spider_mites Two-spotted_spider_mite<br/><br/><b>Cause of disease:</b><br/>Spider mites Tetranychus urticae.<br/><br/><b>How to prevent/cure the disease:</b><br/>Use miticides or insecticidal soaps."
+    },
+    {
+        "name": "Tomato___Target_Spot",
+        "cause": "Fungus Corynespora cassiicola.",
+        "cure": "Apply fungicides and ensure good air circulation.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Target_Spot<br/><br/><b>Cause of disease:</b><br/>Fungus Corynespora cassiicola.<br/><br/><b>How to prevent/cure the disease:</b><br/>Apply fungicides and ensure good air circulation."
+    },
+    {
+        "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "cause": "Virus spread by whiteflies.",
+        "cure": "Control whitefly population and use resistant varieties.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Tomato_Yellow_Leaf_Curl_Virus<br/><br/><b>Cause of disease:</b><br/>Virus spread by whiteflies.<br/><br/><b>How to prevent/cure the disease:</b><br/>Control whitefly population and use resistant varieties."
+    },
+    {
+        "name": "Tomato___Tomato_mosaic_virus",
+        "cause": "Virus transmitted through contact and contaminated tools.",
+        "cure": "Remove infected plants and sterilize tools.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: Tomato_mosaic_virus<br/><br/><b>Cause of disease:</b><br/>Virus transmitted through contact and contaminated tools.<br/><br/><b>How to prevent/cure the disease:</b><br/>Remove infected plants and sterilize tools."
+    },
+    {
+        "name": "Tomato___healthy",
+        "cause": "No disease present.",
+        "cure": "Maintain good cultural practices for optimal health.",
+        "html": "<b>Crop</b>: Tomato <br/>Disease: healthy<br/><br/><b>Cause of disease:</b><br/>No disease present.<br/><br/><b>How to prevent/cure the disease:</b><br/>Maintain good cultural practices for optimal health."
+    }
+]

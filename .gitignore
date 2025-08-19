@@ -1,0 +1,368 @@
+# ==============================================================================
+# PYTHON SERVER (.gitignore)
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+.venv/
+
+# Flask
+instance/
+.webassets-cache
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# ==============================================================================
+# NEXT.JS CLIENT (.gitignore)
+# ==============================================================================
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.*
+.pnp.js
+**/node_modules/
+
+# Testing
+/coverage
+.nyc_output
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+.vercel.json
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Bun
+bun.lockb
+
+# ==============================================================================
+# ML/AI SPECIFIC
+# ==============================================================================
+
+# Large model files (uncomment if needed)
+# *.pkl
+# *.h5
+# *.hdf5
+# *.keras
+# *.pth
+# *.pt
+# *.ckpt
+# *.pb
+# *.tflite
+# *.onnx
+
+# Datasets (uncomment if sensitive or too large)
+# data/
+# *.csv
+# *.json
+# *.parquet
+
+# Training outputs
+checkpoints/
+runs/
+logs/
+wandb/
+mlruns/
+
+# Tensorboard
+.tensorboard/
+
+# ==============================================================================
+# IDE & EDITOR
+# ==============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==============================================================================
+# OPERATING SYSTEM
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================================================
+# PROJECT SPECIFIC
+# ==============================================================================
+
+# Logs
+logs/
+*.log
+server/logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache
+.cache/
+*.cache
+
+# Backup folders
+blob/
+backup/
+backups/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Images (if not needed in repo)
+*.JPG
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+
+# Documents
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# ==============================================================================
+# SECURITY
+# ==============================================================================
+
+# API Keys and secrets
+.env
+.env.local
+.env.production
+.env.test
+secrets.json
+config.json
+private_key*
+*.pem
+*.key
+*.crt
+*.cert
+.secrets/
+
+# Authentication
+.auth
+auth.json
+credentials.json
+token.json
+*.token
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+ml-models/
