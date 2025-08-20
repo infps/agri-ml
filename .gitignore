@@ -324,7 +324,6 @@ backups/
 *.gif
 *.bmp
 *.tiff
-*.svg
 *.ico
 
 # Documents
