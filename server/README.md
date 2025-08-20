@@ -43,25 +43,35 @@ A comprehensive machine learning API for agricultural predictions including crop
 ## Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd server
    ```
 
 2. **Create virtual environment**
+
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Run the application**
+
    ```bash
    python src/app.py
+   ```
+
+5. **Run with docker**
+   ```
+   docker build -t ml-server .
+     docker run -p 5000:5000 ml-server python src/app.py
    ```
 
 The API will be available at `http://localhost:5000`
@@ -69,13 +79,15 @@ The API will be available at `http://localhost:5000`
 ## API Endpoints
 
 ### Health Check
+
 - **GET** `/health` - Check API health and model status
 
 ### Crop Recommendation
+
 - **POST** `/predict-crop`
 - **Body**: Form data with:
   - `Nitrogen`: Nitrogen content in soil
-  - `Phosporus`: Phosphorus content in soil  
+  - `Phosporus`: Phosphorus content in soil
   - `Potassium`: Potassium content in soil
   - `Temperature`: Temperature in Celsius
   - `Humidity`: Relative humidity percentage
@@ -83,6 +95,7 @@ The API will be available at `http://localhost:5000`
   - `Rainfall`: Rainfall in mm
 
 **Example Request:**
+
 ```bash
 curl -X POST http://localhost:5000/predict-crop \
   -F "Nitrogen=90" \
@@ -95,6 +108,7 @@ curl -X POST http://localhost:5000/predict-crop \
 ```
 
 ### Fertilizer Recommendation
+
 - **POST** `/predict-fertilizer`
 - **Body**: Form data with:
   - `cropname`: Name of the crop
@@ -103,11 +117,13 @@ curl -X POST http://localhost:5000/predict-crop \
   - `pottasium`: Current potassium content
 
 ### Disease Detection
+
 - **POST** `/predict-disease`
 - **Body**: Multipart form with:
   - `image`: Plant leaf image file
 
 ### Yield Prediction
+
 - **POST** `/predict-yield`
 - **Body**: Form data with:
   - `Year`: Year of cultivation
@@ -120,6 +136,7 @@ curl -X POST http://localhost:5000/predict-crop \
 ## Configuration
 
 Edit `config/settings.py` to customize:
+
 - Model file paths
 - API settings (host, port, debug mode)
 - Logging configuration
@@ -135,21 +152,25 @@ Edit `config/settings.py` to customize:
 ## Model Information
 
 ### Crop Recommendation
+
 - **Algorithm**: Random Forest/SVM Classifier
 - **Features**: N, P, K, Temperature, Humidity, pH, Rainfall
 - **Output**: 22 crop types
 
 ### Disease Detection
+
 - **Algorithm**: Convolutional Neural Network (CNN)
 - **Input**: Plant leaf images (160x160 pixels)
 - **Output**: Disease classification with confidence
 
 ### Fertilizer Recommendation
+
 - **Algorithm**: Rule-based system
 - **Input**: Crop type and current NPK values
 - **Output**: Fertilizer recommendations
 
 ### Yield Prediction
+
 - **Algorithm**: Decision Tree Regressor
 - **Features**: Year, Rainfall, Pesticides, Temperature, Area, Item
 - **Output**: Yield in tonnes per hectare
@@ -157,11 +178,13 @@ Edit `config/settings.py` to customize:
 ## Development
 
 ### Adding New Features
+
 1. Create new route handlers in `src/api/routes.py`
 2. Add model loading logic in `src/utils/model_loader.py`
 3. Update configuration in `config/settings.py`
 
 ### Testing
+
 ```bash
 # Run tests (when implemented)
 python -m pytest tests/
@@ -170,6 +193,7 @@ python -m pytest tests/
 ### Production Deployment
 
 1. **Using Gunicorn**
+
    ```bash
    pip install gunicorn
    gunicorn -w 4 -b 0.0.0.0:5000 src.app:create_app()
@@ -201,12 +225,14 @@ MIT License - see LICENSE file for details
 ## Support
 
 For issues and questions:
+
 - Create an issue in the repository
 - Contact the development team
 
 ## Changelog
 
 ### v1.0.0
+
 - Initial release
 - Crop recommendation API
 - Disease detection API
