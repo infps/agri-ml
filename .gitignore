@@ -16,7 +16,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+server/lib/
 lib64/
 parts/
 sdist/
@@ -164,6 +164,7 @@ next-env.d.ts
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+
 
 # Package managers
 package-lock.json

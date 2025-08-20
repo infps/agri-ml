@@ -126,7 +126,9 @@ export default function YieldPrediction() {
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <Label className="font-semibold text-green-950/50">Year</Label>
+                  <Label className="font-semibold text-green-950/50">
+                    Year
+                  </Label>
                   <Input
                     type="number"
                     max="2015"
@@ -136,7 +138,9 @@ export default function YieldPrediction() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label className="font-semibold text-green-950/50">Crop</Label>
+                  <Label className="font-semibold text-green-950/50">
+                    Crop
+                  </Label>
                   <Input
                     type="text"
                     value={formData.crop}
@@ -187,16 +191,15 @@ export default function YieldPrediction() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label className="font-semibold text-green-950/50">Area</Label>
+                  <Label className="font-semibold text-green-950/50">
+                    Area
+                  </Label>
                   <Input
                     type="text"
                     value={formData.area}
                     onChange={(e) => handleInputChange("area", e.target.value)}
                     placeholder="India"
                   />
-                  <p className="text-xs text-gray-500 mt-1">
-                    Enter area in hectares (0.1 - 50,000)
-                  </p>
                 </div>
               </div>
 
